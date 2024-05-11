@@ -671,8 +671,8 @@ int main(int argc, char** argv)
     // yolov8.opt.num_threads = ncnn::get_big_cpu_count();
 
 
-    yolov8.load_param("../model/yolov8n-seg.param");
-    yolov8.load_model("../model/yolov8n-seg.bin");
+    yolov8.load_param("../model/yolov8s-seg.param");
+    yolov8.load_model("../model/yolov8s-seg.bin");
 
     // open camera
     videoCapture.open(0);
